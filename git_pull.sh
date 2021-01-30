@@ -29,14 +29,14 @@ ContentDropTask=${ShellDir}/drop_task
 SendCount=${ShellDir}/send_count
 isTermux=${ANDROID_RUNTIME_ROOT}${ANDROID_ROOT}
 WhichDep=$(grep "/jd-base" "${ShellDir}/.git/config")
-Scripts2URL=https://github.com/shylocks/Loon
+Scripts2URL=https://hub.fastgit.org/shylocks/Loon
 
 if [[ ${WhichDep} == *github* ]]; then
   ScriptsURL=https://gitee.com/lxk0301/jd_scripts
-  ShellURL=https://github.com/lmh77/EvineDeng-jd-base
+  ShellURL=https://hub.fastgit.org/lmh77/EvineDeng-jd-base
 else
   ScriptsURL=https://gitee.com/lxk0301/jd_scripts
-  ShellURL=https://github.com/lmh77/EvineDeng-jd-base
+  ShellURL=https://hub.fastgit.org/lmh77/EvineDeng-jd-base
 fi
 
 ## 更新shell脚本
